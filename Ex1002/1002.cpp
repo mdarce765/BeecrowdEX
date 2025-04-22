@@ -11,4 +11,6 @@ int main(){
     a = n * pow(raio,2);
     
     printf("A=%.4lf\n",a);
+
+    return 0;
 }
