@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-    string nome;
-    double sal, bon, calc;
+    int id, h;
+    double sal, calc;
     
-    cin>>nome>>sal>>bon;
+    cin>>id>>h>>sal;
     
-    calc = sal+(bon*0.15);
+    calc = h*sal;
     
-    printf("TOTAL = R$ %.2lf\n",calc);
+    printf("NUMBER = %d\nSALARY = U$ %.2lf\n",id,calc);
 }
