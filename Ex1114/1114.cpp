@@ -12,4 +12,5 @@ int main(){
         printf("Senha Invalida\n");
     }
     printf("Acesso Permitido\n");
+    return 0;
 }
